@@ -1,4 +1,4 @@
 # Guoyu_Li_275
-Name: Guoyu Li\n
-UDID: 702435231\n
-Mail: kelvingy@udel.edu\n
+<p>Name: Guoyu Li</p>
+<p>UDID: 702435231</p>
+<p>Mail: kelvingy@udel.edu</p>
