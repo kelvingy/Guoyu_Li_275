@@ -1,10 +1,98 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <style>
+        body {
+          background-color: rgb(207, 237, 247);
+        }
+        </style>
+    </head>
 <head>
     <title>My First Website</title>
 </head>
-<body>
-    <h2 style="color:Tomato;">Hello World!</h2>
-    <p>I am trying to make a webpage.</p>
+
+    <span><h1 style="color:Tomato;">Cat World</h1></span>
+    <style> 
+    span {
+       text-align:center
+    }
+        </style> 
+
+<body> 
+    <p>This webpage introduces all the different breeds of cats.</p>
+    <button type="button" onclick="Myalert()">Attention!</button>
+    <script>
+        function Myalert(){
+            alert("You better like cats!");
+        }
+    </script>    
 </body>
+
+<h3 style="color:cornflowerblue;">British Shorthair</h3>
+<head>
+    <script>
+        window.onload = function() {
+            let webimg = document.createElement("img");
+            webimg.src = "./Bcat.jpg";
+            var myp01 = document.getElementById('myp01');
+            myp01.appendChild(webimg);
+        }
+    </script>
+</head>
+<body>
+    <div id="myp01"></div>
+</body>
+<p>British shorthair cats have a chubby body, well-developed limbs, short and dense hair, a large head and a round face, gentle and calm, friendly to people, and easy to raise. Large, round eyes show various colors according to different coats. As an ancient cat breed, its history can be traced back to the domestic cats of ancient Rome.</p>
+
+<body>
+<video src="./Bcat.mp4"; controls width="600"; height="400"></video>
+</body>
+<head>
+    <style>
+    table {
+      border-collapse: collapse;
+      width: 80%;
+    }
+    th, td {
+      text-align: left;
+      padding: 8px;
+    }
+    tr:nth-child(even){background-color: #f2f2f2}
+    th {
+      background-color: #dee3e4;
+      color: rgb(22, 21, 21);
+    }
+    </style>
+    </head>
+    <body>
+    <table>
+      <tr>
+        <th>British Shorthair</th>
+        <th></th>
+      </tr>
+      <tr>
+        <td>height</td>
+        <td>12-14 inches</td>
+      </tr>
+      <tr>
+        <td>vocalness</td>
+        <td>when necessary</td>
+      </tr>
+      <tr>
+        <td>coat length</td>
+        <td>short</td>
+      </tr>
+      <tr>
+        <td>colors</td>
+        <td>white black / ebony red / orange blue / gray cream / beige / tan chocolate / brown / sable cinnamon fawn lilac</td>
+    </tr>
+    <tr>
+        <td>patterns</td>
+        <td>solid bi-color tabby calico / tri-color color point
+    </td>
+      </tr>
+    </table>
+    </body>
+
+
 </html>
