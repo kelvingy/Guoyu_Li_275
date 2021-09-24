@@ -1,21 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <style>
-        body {
-          background-color: rgb(207, 237, 247);
-        }
-        </style>
-    
-
+      <link rel="stylesheet" href="../style.css">
+        
     <title>Cat World</title>
-    </head>
-    <style>
-        .changeColor{
-            color:rgb(216, 104, 29);
-        }
-    </style>
-   <div class="changeColor">
+  </head>
+
+  <body> 
+
+   <div class="titleColor">
    <span><h1>Cat World</h1></span>
     <style> 
     span {
@@ -23,8 +16,9 @@
     }
         </style> 
     </div>
-<body> 
-    <div class="changeColor">
+   
+
+    <div class="titleColor">
     <p>This webpage introduces all the different breeds of cats.</p>
     </div>
     <button type="button" onclick="Myalert()">Attention!</button>
@@ -33,45 +27,28 @@
             alert("You better like cats!");
         }
     </script>    
-</body>
 
-<h3 style="color:cornflowerblue;">British Shorthair</h3>
-<head>
+
+<h3>British Shorthair</h3>
+
     <script>
         window.onload = function() {
             let webimg = document.createElement("img");
-            webimg.src = "./Bcat.jpg";
+            webimg.src = "../resources/image/Bcat.jpg";
             var myp01 = document.getElementById('myp01');
             myp01.appendChild(webimg);
         }
     </script>
-</head>
-<body>
+
+
     <div id="myp01"></div>
-</body>
+
 <p>British shorthair cats have a chubby body, well-developed limbs, short and dense hair, a large head and a round face, gentle and calm, friendly to people, and easy to raise. Large, round eyes show various colors according to different coats. As an ancient cat breed, its history can be traced back to the domestic cats of ancient Rome.</p>
 
-<body>
-<video src="./Bcat.mp4"; controls width="600"; height="400"></video>
-</body>
-<head>
-    <style>
-    table {
-      border-collapse: collapse;
-      width: 80%;
-    }
-    th, td {
-      text-align: left;
-      padding: 8px;
-    }
-    tr:nth-child(even){background-color: #f2f2f2}
-    th {
-      background-color: #dee3e4;
-      color: rgb(22, 21, 21);
-    }
-    </style>
-    </head>
-    <body>
+<p>
+<video src="../resources/video/Bcat.mp4"; alt="British Shorthair Cat"; controls width="600"; height="400"></video>
+</p>
+  <div>
     <table>
       <tr>
         <th>British Shorthair</th>
@@ -99,7 +76,7 @@
     </td>
       </tr>
     </table>
-    </body>
-
+    </div>
+</body>
 
 </html>
