@@ -21,7 +21,7 @@
   <li style="text-decoration:line-through;">I will add a button in my webpage (<a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_button_test">w3schools</a>).</li>
 </ul>  
 
-<h2>Week 2</h2>
+
 <h2>Change Log</h2>
 <ul>
   <li>I use JavaScript add a button, and it will give an alert window by click it (<a href="https://www.w3schools.com/js">w3schools</a>).</li>
@@ -35,8 +35,18 @@
 
 <h2>To-Do</h2>
 <ul>
-  <li>I will use TypeScript to add more style class in order to make the code easier to read (<a href="https://www.typescripttutorial.net/typescript-tutorial/typescript-class">typescripttutorial</a>).</li>
-  <li>I will use TypeScript to add images <a href="https://www.typescripttutorial.net/typescript-tutorial/typescript-class">typescripttutorial</a>).</li>
-  <li>I will use React to add a new button (<a href="https://www.w3schools.com/REACT">w3schools</a>).</li>
-  <li>I will use TypeScript to modify my webpage <a href="https://www.typescripttutorial.net/typescript-tutorial/typescript-class">typescripttutorial</a>).</li>
+  <li style="text-decoration:line-through;">I will add more style class in order to make the code easier to read (<a href="https://www.typescripttutorial.net/typescript-tutorial/typescript-class">typescripttutorial</a>).</li>
+  <li style="text-decoration:line-through;">I will use TypeScript to add images <a href="https://www.typescripttutorial.net/typescript-tutorial/typescript-class">typescripttutorial</a>).</li>
+  <li style="text-decoration:line-through;">I will use React to add a new button (<a href="https://www.w3schools.com/REACT">w3schools</a>).</li>
+  <li style="text-decoration:line-through;">I will use React to modify my webpage <a href="https://www.w3schools.com/REACT">w3schools</a>).</li>
+</ul>
+
+<h2>Change Log</h2>
+<ul>
+  <li>I used React components to make a really simple web app for user to click the name of cats in order to have the information of that cat breed(<a href="https://reactjs.org/tutorial/tutorial.html">reactjs.org</a>).</li>
+  <li >I used React to add images for each cat notes(<a href="https://www.w3schools.com/REACT">w3schools</a>).</li>
+  <li >I used React to add a new button, click the one button will show the infor; then click another one, will show the pictures and information, but last-clicked one will hide in to the button(<a href="https://reactjs.org/tutorial/tutorial.html">reactjs.org</a>).</li>
+  <li>I used React Bootstrap to modify my web app like the size of the button, the color of the button, and the color change(<a href="https://www.youtube.com/watch?v=eow125xV5-c">Youtube</a>).</li>
+  <li>I add some forms in order to collect users informations, such as single selection box, drop-down box, and multi-check box(<a href="https://www.w3schools.com/html">w3schools</a>).</li>
+  <li>I added one more html web to receive the information from the users(<a href="https://www.w3schools.com/html">w3schools</a>).</li>
 </ul>

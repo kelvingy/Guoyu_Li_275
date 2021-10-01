@@ -30,16 +30,16 @@
 
 <h3 style="color: black;">Let me know about you.</h3>
 <form method="POST" action="../html/index.html">
-  <p> Name: <input type="text" name="customer_name" ></p>
+  <p> Name: <input type="text" name="customer_name" required></p>
   <p> Student ID: <input type="text" name="StudentID"></p>
-  <p> Email: <input type="text" name="customer_email"></p>
-<p>Gender:
+  <p> Email: <input type="email" name="customer_email" required></p>
+<p >Gender:
   <input type="radio" value="male" name="sex"> male
   <input type="radio" value="female" name="sex"> female
 </p>
 
 <p>Occupation:
-  <select name="Occupation">
+  <select name="Occupation" required>
     <option value="Professor">Professor</option>
     <option value="TA" selected>TA</option>
     <option value="Student">Student</option>
@@ -64,7 +64,7 @@
 
 </form>
 
-
+<h4 style="color: brown;"> <a href="https://kelvingy.github.io/ReactCat/">Clike Me for more cat informations</a></h4>
 
 <div  style="text-align:center">
 <h3>British Shorthair</h3>
