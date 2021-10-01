@@ -28,7 +28,45 @@
         }
     </script>    
 
+<h3 style="color: black;">Let me know about you.</h3>
+<form method="POST" action="../html/index.html">
+  <p> Name: <input type="text" name="customer_name" ></p>
+  <p> Student ID: <input type="text" name="StudentID"></p>
+  <p> Email: <input type="text" name="customer_email"></p>
+<p>Gender:
+  <input type="radio" value="male" name="sex"> male
+  <input type="radio" value="female" name="sex"> female
+</p>
 
+<p>Occupation:
+  <select name="Occupation">
+    <option value="Professor">Professor</option>
+    <option value="TA" selected>TA</option>
+    <option value="Student">Student</option>
+    <option value="UD_Staff">UD Staff</option>
+  </select>
+</p>
+
+
+<p>How do you know my webside?
+  <input type="checkbox" value="instagram" name="HowtoKnow">Instagram
+  <input type="checkbox" value="twitter" name="HowtoKnow">Twitter
+  <input type="checkbox" value="web_ad." name="HowtoKnow">Web Ad
+  <input type="checkbox" value="facebook." name="HowtoKnow">Facebool
+  <input type="checkbox" value="others" name="HowtoKnow">others
+</p>
+
+<p>
+  <input type="submit" name="submit" value="Submit"> 
+  <input type="reset" name="reset" value="Reset">
+</p>
+
+
+</form>
+
+
+
+<div  style="text-align:center">
 <h3>British Shorthair</h3>
 
     <script>
@@ -77,6 +115,9 @@
       </tr>
     </table>
     </div>
+    
+    
+</div>
 </body>
 
 </html>
