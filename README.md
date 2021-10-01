@@ -3,7 +3,7 @@
 <p>UDID: 702435231</p>
 <p>Mail: kelvingy@udel.edu</p>
 
-<p>This is my first <a href="https://kelvingy.github.io/Guoyu_Li_275/myportf.html">website</a>, and this is the source <a href="https://github.com/kelvingy/Guoyu_Li_275/blob/main/myportf.html">code</a>.</p>
+<p>This is my first <a href="https://kelvingy.github.io/Guoyu_Li_275/html/myportf.html">website</a>, and this is the source <a href="https://github.com/kelvingy/Guoyu_Li_275/blob/main/myportf.html">code</a>.</p>
 
 <h2 style="text-decoration:line-through;">Week 1</h2>
 <h2 style="text-decoration:line-through;">Change Log</h2>
